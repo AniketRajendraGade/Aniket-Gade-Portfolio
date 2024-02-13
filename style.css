@@ -14,7 +14,12 @@ body{
   z-index: 1000;
 }
 
-
+.navbar-brand{
+  
+  font-family: "Libre Baskerville", serif;
+  font-weight: 700;
+  font-style: normal;
+}
 
 .navbar-nav .nav-link {
   color: white !important;
@@ -83,7 +88,7 @@ body{
   }
 
   .navbar-nav .nav-link{
-    font-weight:500;
+    font-weight:300;
   }
   
 }
@@ -100,6 +105,8 @@ section{
   align-items: center;
   padding: 0 9%;
 }
+
+
 
 .home-content{
   max-width: 40rem;
@@ -180,6 +187,16 @@ section{
 
   .home-sci {
     bottom: 6rem;
+  }
+
+  .home-content h1 {
+    font-size: 2rem;
+    line-height: 1.2;
+    text-align: center; /* Center align text */
+  }
+
+  .home-content h1 span {
+    display: block; /* Display Aniket Gade on a separate line */
   }
 }
 
